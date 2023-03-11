@@ -20,7 +20,7 @@ const users = (sequelize, dataTypes) => {
       unique: true,
     },
     password: {
-      type: dataType.STRING,
+      type: dataTypes.STRING,
       allowNull: false,
     },
   });
@@ -33,5 +33,3 @@ const users = (sequelize, dataTypes) => {
 };
 
 module.exports = users;
-
-//test
